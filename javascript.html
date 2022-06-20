@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="cabecera">
+        <h1 class="titulo1">Las Famosas Pastas de Palermo</h1>
+        
+        <nav class="links">
+            <a class="enlacea" href="index.html"><span class="enlaceb">Inicio</span></a>
+            <a class="enlacea" href="nosotros.html"><span class="enlaceb">Nosotros</span></a>
+            <a class="enlacea" href="npropuesta.html"><span class="enlaceb">Sucursales</span></a>
+            <a class="enlacea" href="contactos.html"><span class="enlaceb">Contactos</span></a>
+            <a class="enlacea" href="javascript.html"><span class="enlaceb">Pedir Online</span></a>
+        </nav> 
+    </header>
+    <main>
+        <br>
+        <h2 class="titulo1">Aqui puedes realizar el pedido online</h1>
+        <div class=container>
+            <form action="" method="get" id="envioform" required><br>
+                    <div> <label for="nombreyapellido" ><br>
+                        Nombre y apellido:
+                     </label>
+                    </div>
+                <div>
+                    <input type="text" id="nombreyapellido" required><br>
+                </div>
+                <br>
+                <div>
+                    <label for="telefono" >
+                        Su numero de telefono:
+                    </label>
+                </div>
+                <div>
+                    <input type="text" id="telefono"><br>
+                </div>
+                <br>
+                <div>
+                    <label for="direccion">
+                        Su direccion:
+                    </label>
+                </div>
+                <div>
+                    <input type="text" id="direccion"><br>
+                </div>
+                <br>
+                <br>
+                <div>
+
+                    <label for="comida">Pastas</label>
+                    <select id="comida" name="comida">
+                        <option value="sopa">Sopa</option>
+                        <option value="fideos">Fideos</option>
+                        <option value="ravioles">Ravioles</option>
+                        <option value="rorrentinos">Sorrentinos</option>
+                        <option value="lasagna">Lasagna</option>
+                        <option value="noquis">Ñoquis</option>
+                        <option value="ninguna">Ninguna</option>
+                    </select> 
+                </div>
+                <br>
+                <div>
+
+                    <label for="bebidas">Bebidas</label>
+                    <select id="bebidas" name="bebidas">
+                        <option value="agua">Agua</option>
+                        <option value="gaseosa">Gaseosa</option>
+                        <option value="cerveza">Cerveza</option>
+                        <option value="vinos">Vinos</option>
+                        <option value="Whisky">Whisky</option>
+                        <option value="ninguna">Ninguna</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+
+                    <label for="postres">Postres</label>
+                    <select id="postres" name="postres">
+                        <option value="flan casero">Flan casero</option>
+                        <option value="helado">Helado</option>
+                        <option value="tiramisu">Tiramisu</option>
+                        <option value="Volcan">Volcan de chocolate</option>
+                        <option value="cheesecake">Cheesecake</option>
+                        <option value="lemon pie">Lemon pie</option>
+                        <option value="ninguna">Ninguna</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Eviar pedido">
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+
+</body>
+</html>

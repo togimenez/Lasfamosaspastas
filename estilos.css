@@ -1,0 +1,382 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/restaurant-menu-template-with-photo_52683-19022.jpg?t=st=1651359575~exp=1651360175~hmac=27dce5b5a48ba671f83a700b36c8f504dfd2483a1863c951a7289cb8bad1f738&w=740);
+}
+
+.cabecera{
+    text-align: center;
+}
+.titulo1{
+    background-color: rgb(44, 42, 42);
+    color: rgb(255, 255, 255);
+    font-family: 'roboto';
+    font-size: 40px;
+    font-weight: 40px;
+    padding:10px 0px;
+    margin: 0px;
+
+}
+.links{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Arial';
+    background-color:rgb(44, 42, 42);
+    border-end-end-radius: 15px ;
+    border-end-start-radius: 15px;
+}
+.enlaceb{
+    font-size: 25px;
+    margin:20px;
+    font-family:verdana;
+
+}
+.men{
+    background-color: rgb(148, 133, 87);
+    border-radius: 3cm;
+}
+.titulo2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin: 5px;
+    padding: 10px;
+}
+.menu{
+    
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Arial';
+    margin: 40px;
+    padding: 0px;
+    font-weight: 600;
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 4px double rgb(255, 255, 255);
+    list-style: none;
+}
+
+.comidas{
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 4px double rgb(255, 255, 255);
+    list-style: none;
+    margin: 20px;
+}
+.redes{
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 4px double rgb(255, 255, 255);
+    list-style: none;
+    margin: 20px;
+}
+.footer{
+    background-color:rgb(44,42,42);
+}
+.parrafo2{
+    background-color: rgb(44,42,42);
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 30px;
+}
+.parrafo3{
+    text-align: left;
+    font-size: 30px;
+    margin: 0px;
+}
+.enlacec{
+    background-color: rgb(44,42,42);
+    font-size:30px;
+}
+
+.titulo3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'roboto';
+    font-size: 40px;
+    font-weight: 40px;
+}
+.parrafo4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'roboto';
+    font-size: 25px;
+}
+.parrafo1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'roboto';
+    font-size: 25px;
+    border-radius: 3cm;
+    background-color: rgb(148, 133, 87);
+    margin: 5px;
+}
+
+.menu2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Arial';
+    margin: 40px;
+    padding: 0px;
+    font-weight: 600;
+}
+.men2{
+    background-color: rgb(148, 133, 87);
+    border-radius: 3cm;
+}
+.img{
+    height: 200px;
+    width: 300px;
+}
+.parrafocon{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'roboto';
+    font-size: 17px;
+    border-radius: 3cm;
+    background-color: rgb(148, 133, 87);
+    margin: 5px;
+} 
+.container{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Arial';
+    margin: 10px;
+    padding: 20px;
+    font-weight: 200;
+    width: 220px;
+    background-color: rgb(44, 42, 42);
+    height: 400px;
+    width: 500px;
+
+}
+label{
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 992px)/*maximo*/{
+    body{
+        background-image: url(https://img.freepik.com/free-vector/restaurant-menu-template-with-photo_52683-19022.jpg?t=st=1651359575~exp=1651360175~hmac=27dce5b5a48ba671f83a700b36c8f504dfd2483a1863c951a7289cb8bad1f738&w=740); 
+    }
+    .cabecera{
+        text-align: center;
+    }
+    .titulo1{
+        background-color: rgb(44, 42, 42);
+        color: rgb(255, 255, 255);
+        font-family: 'roboto';
+        font-size: 40px;
+        font-weight: 40px;
+        padding:10px 0px;
+        margin: 0px;
+            
+    }
+    .links{
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-family: 'Arial';
+        background-color:rgb(44, 42, 42);
+        border-end-end-radius: 15px ;
+        border-end-start-radius: 15px;
+    }
+    .enlaceb{
+        font-size: 25px;
+        margin:20px;
+        font-family:verdana;
+    }
+    .men{
+        background-color: rgb(148, 133, 87);
+        border-radius: 3cm;
+    }
+    .titulo2{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        margin: 5px;
+        padding: 10px;
+    }
+    .menu{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Arial';
+        margin: 30px;
+        padding: 12px;
+        font-weight: 600;
+        column-count: 3;
+        column-gap: 20px;
+        column-rule: 4px double rgb(255, 255, 255);
+        list-style: none;
+    }
+    .comidas{
+        column-count: 3;
+        column-gap: 20px;
+        column-rule: 4px double rgb(255, 255, 255);
+        list-style: none;
+        margin: 20px;
+    }
+    .redes{
+        column-count: 3;
+        column-gap: 20px;
+        column-rule: 4px double rgb(0, 0, 0);
+        list-style: none;
+        margin: 20px;
+    }
+    .footer{
+         background-color:rgb(44,42,42);
+    }
+    .parrafo1{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: 'roboto';
+        font-size: 17px;
+        border-radius: 3cm;
+        background-color: rgb(148, 133, 87);
+        margin: 5px;
+    }
+    .parrafo2{
+        background-color: rgb(44,42,42);
+        text-align: center;
+        font-family: 'roboto';
+        font-size: 30px;
+    }
+    .parrafo3{
+        text-align: left;
+        font-size: 30px;
+        margin: 0px;
+    }
+    .enlacec{
+        background-color: rgb(44,42,42);
+        font-size:30px;
+    }  
+    .img{
+        height: 150px;
+        width: 200px;
+    } 
+    .parrafocon{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: 'roboto';
+        font-size: 17px;
+        border-radius: 3cm;
+        background-color: rgb(148, 133, 87);
+        margin: 5px;
+    } 
+    .form{
+        background-color: rgb(44, 42, 42);
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-family: 'Arial';
+        margin: 10px;
+        padding: 20px;
+        font-weight: 200;
+        width: 220px;
+    }
+    .container{
+        background-image: url(https://img.freepik.com/foto-gratis/especias-almuerzo-pasta-fresca-superior_1220-923.jpg?t=st=1655589390~exp=1655589990~hmac=6b76d8ae19402773c49b51b4c110c941711585bc786eedebd688a7dbba8eb12e&w=740);
+        height: 400px;
+        width: 700px;
+    }
+}
+@media (max-width: 765px)/*maximo*/{
+    body{
+        background-image: url(https://img.freepik.com/free-vector/restaurant-menu-template-with-photo_52683-19022.jpg?t=st=1651359575~exp=1651360175~hmac=27dce5b5a48ba671f83a700b36c8f504dfd2483a1863c951a7289cb8bad1f738&w=740);
+    }
+    .cabecera{
+        text-align: center;
+    }
+    .titulo1{
+        background-color: rgb(44, 42, 42);
+        color: rgb(255, 255, 255);
+        font-family: 'roboto';
+        font-size: 35px;
+        font-weight: 40px;
+        padding:10px 0px;
+        margin: 0px;
+            
+    }
+    .links{
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-family: 'Arial';
+        background-color:rgb(44, 42, 42);
+        border-end-end-radius: 15px ;
+        border-end-start-radius: 15px;
+    }
+    .enlaceb{
+        font-size: 17px;
+        margin:20px;
+        font-family:verdana;
+    }
+    .men{
+        background-color: rgb(148, 133, 87);
+        border-radius: 3cm;
+    }
+    .titulo2{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        margin: 5px;
+        padding: 10px;
+    }
+    .menu{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 19px;
+        font-family: 'Arial';
+        margin: 30px;
+        padding: 12px;
+        font-weight: 600;
+        column-count: 2;
+        column-gap: 20px;
+        column-rule: 4px double rgb(255, 255, 255);
+        list-style: none;
+    }
+    .comidas{
+        column-count: 3;
+        column-gap: 20px;
+        column-rule: 4px double rgb(255, 255, 255);
+        list-style: none;
+        margin: 5px;
+    }
+    .footer{
+         background-color:rgb(44,42,42);
+    }
+    .parrafo2{
+        background-color: rgb(44,42,42);
+        text-align: center;
+        font-family: 'roboto';
+        font-size: 30px;
+    }
+    .parrafo3{
+        text-align: left;
+        font-size: 25px;
+        margin: 0px;
+    }
+    .enlacec{
+        background-color: rgb(44,42,42);
+        font-size:20px;
+    }  
+    .img{
+        height: 100px;
+        width: 150px;
+    } 
+    .parrafocon{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: 'roboto';
+        font-size: 12px;
+        border-radius: 3cm;
+        background-color: rgb(148, 133, 87);
+        margin: 5px;
+    } 
+    .container{
+        border-color: rgb(44, 42, 42);
+        height: 350px;
+        width: 400px;
+    }
+}
+
+
